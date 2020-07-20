@@ -1,2 +1,5 @@
-puts "Hello world"
-puts "Second line"
+def say_hello(arg)
+  puts arg
+end
+
+say_hello("Octaviaaaa")

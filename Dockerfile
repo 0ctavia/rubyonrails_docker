@@ -1,7 +1,9 @@
 # starting image
 FROM ruby
 RUN apt-get update
-RUN apt-get install -y nodejs
+RUN apt-get install -y \ 
+    nodejs\
+    vim
 
 # copy stuff
 COPY . /myapp
@@ -19,4 +21,4 @@ RUN bundle install
 EXPOSE 3000
 
 # Start the main process.
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
