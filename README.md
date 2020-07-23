@@ -24,4 +24,8 @@ If you want to run the serveri, make sure you're in the /project folder and ther
 
 Which will make the server run on localhost:3000, serving the page `app/views/welcome/index.html.erb`.
 
+If you want to enter into your docker while it is already running in one workspace, first get the name of the running docker container with:
+`sudo docker ps`
 
+Then do: 
+`sudo docker exec -it [name_of_running_container] /bin/bash`
