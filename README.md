@@ -18,7 +18,7 @@ From there one, the docker's your oyster.
 
 Notes / Todo's:
 Rails server still needs to be ran up manually once inside the docker. Currently not doing it by default in the dockerfile since I mostly use command line ruby at the moment.
-If you want to run the serveri, make sure you're in the /project folder and there do:
+If you want to run the server, make sure you're in the /project folder and there do:
 
 `rails server -b 0.0.0.0`
 
